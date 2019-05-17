@@ -32,18 +32,28 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
 
+The DOM stands for the Document Object Model. It is a document object that represents the brower or the window. Arranged in a tree like structure, each node of the DOM can branch out as its own tree and contain within it methods, properties, and other information.
+
 2. What is an event?
+
+An event is an interaction between external stimulus and the browser. It is generally effectuated by mouse movements, clicks, and keyboard inputs.
 
 3. What is an event listener?
 
+An event listener is an object method used to respond to events with a callback function.
+
 4. Why would we convert a NodeList into an Array?
+
+We would make the conversion in order to have a fuller range of properties and methods to use on the data structure, although NodeList already has more methods than HTMLCollection so we may not have to convert a NodeList.
 
 5. What is a component?
 
+A component is a cohesive bit of HTML, CS, and JS that are used to deploy styles and functionality uniformly at scale across web applications
+
 ### Git Set up
 
-* [ ] Fork the project into your GitHub user account
-* [ ] Clone the forked project into a directory on your machine
+* [ X ] Fork the project into your GitHub user account
+* [ X ] Clone the forked project into a directory on your machine
 * [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
 * [ ] You are now ready to build this project with your preferred IDE
 
