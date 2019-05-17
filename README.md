@@ -44,7 +44,7 @@ An event listener is an object method used to respond to events with a callback 
 
 4. Why would we convert a NodeList into an Array?
 
-We would make the conversion in order to have a fuller range of properties and methods to use on the data structure, although NodeList already has more methods than HTMLCollection so we may not have to convert a NodeList.
+We would make the conversion in order to have a fuller range of properties and methods to use on the data structure, although NodeList already has more methods than HTMLCollection so we may not have to convert a NodeList. For instance, we can use forEach on NodeList, but not map. If we want to use the map method, we need to convert to an array using Array.from.
 
 5. What is a component?
 
@@ -54,8 +54,8 @@ A component is a cohesive bit of HTML, CS, and JS that are used to deploy styles
 
 * [ X ] Fork the project into your GitHub user account
 * [ X ] Clone the forked project into a directory on your machine
-* [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
-* [ ] You are now ready to build this project with your preferred IDE
+* [ X ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
+* [ O ] You are now ready to build this project with your preferred IDE
 
 ## Minimum Viable Product
 
