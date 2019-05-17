@@ -1,8 +1,13 @@
+// Step 3: Define our class that will create a new object
+
 class Carousel {
+    constructor(component) {
+        this.component = component;
+    }
 
 }
 
-let carousel = document.querySelector();
+
 
 /* If You've gotten this far, you're on your own! Although we will give you some hints:
     1. You will need to grab a reference to the carousel, and in it grab the left and right buttons
@@ -12,3 +17,18 @@ let carousel = document.querySelector();
     5. Think of how you would animate this compoennt. Make the cards slide in and out, or fade. It's up to you!
     6. Have fun!
 */
+
+
+
+
+
+// Step 1: Get the DOM elements that we are adding an event listener to and add them in the variable 'carousel'
+
+let carousel = document.querySelector('.carousel');
+console.log('carousel', carousel);
+
+
+// Step 2: Create a new object
+
+
+    return new Carousel(component)
